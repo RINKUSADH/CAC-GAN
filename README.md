@@ -108,6 +108,12 @@ metrics.py: Calculation of PSNR and SSIM.
 test.py: Inference script with LPIPS evaluation.
 visualization.py: Utilities for plotting training curves and saving image samples.
 ```
+### Contributions
+
+- **Rinku Sadh**: Led the experimental evaluation of CAC-GAN, including repeated training runs, hyperparameter sweeps, and performance benchmarking; implemented the contrast-aware histogram loss; curated qualitative and quantitative results; prepared representative visualizations; led manuscript drafting and revisions.
+
+- **Prabhat Ranjan**: Contributed to the conceptualization and design of CAC-GAN; designed the model architecture and overall training framework; implemented the Single Cycle Consistency Loss (SCCL); developed the complete PyTorch training and evaluation pipeline. The feature matching loss was adapted from prior literature and integrated into the CAC-GAN framework.
+
 ## 📜 Citation
 If you use this code or our paper in your research, please cite:
 ```bash
