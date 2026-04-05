@@ -114,14 +114,4 @@ visualization.py: Utilities for plotting training curves and saving image sample
 
 - **Prabhat Ranjan**: Contributed to the conceptualization and design of CAC-GAN; designed the model architecture and overall training framework; implemented the Single Cycle Consistency Loss (SCCL); developed the complete PyTorch training and evaluation pipeline. The feature matching loss was adapted from prior literature and integrated into the CAC-GAN framework.
 
-## 📜 Citation
-If you use this code or our paper in your research, please cite:
-```bash
-Bibtex
-@inproceedings{sadh2026cacgan,
-  title={CAC-GAN: High-Fidelity Synthesis of MRI Sequences Using Contrast-Aware CycleGAN},
-  author={Rinku Sadh and Prabhat Ranjan and Angshuman Paul},
-  booktitle={Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI)},
-  year={2026}
-}
-```
+
